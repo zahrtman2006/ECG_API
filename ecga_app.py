@@ -8,6 +8,6 @@ ecgapi = Flask(__name__)
 def index():
     return 'API Coming Soon!'
 
-
-
+@ecgapi.route('/index')
+return 'What are you looking for?'
 
